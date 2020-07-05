@@ -1,2 +1,2 @@
-# M-todos-num-ricos-en-ingenier-a
+# Metodos-numericos-en-ingenieria
 Ejercicios de práctica de MatLab
