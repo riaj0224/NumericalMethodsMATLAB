@@ -19,11 +19,22 @@
 function sumaPrima = sumadorPrimo(b) % Se declaran las entradas y salidas 
 % de la función
 
-sumaPrima = 0; % Se inicializa la sumatoria
+sumaPrima = 0; % Se inicializa sumatoria/contador
 
-esprimo = false; % Se inicializa la variable
+for w = 1:b % Intervalo para hacer la sumatoria
+   
+    esprimo = detectaPrimos(w); % Examinar qué números son primos
+    
+    if esprimo == true % Si son primos, sumarlos al contador
+       
+        sumaPrima = sumaPrima + w; % Sumatoria
+        
+    end
+    
+end
 
-for n = 0:b % Loop para examinar todos los números en el intervalo con el
+    function esprimo = detectaPrimos(n) % Se inicializa la función con entradas 
+    % y salidas
 
     div = floor(sqrt(n)); % Se calcula la raíz cuadrada y normaliza al número
     % menor más cercano
@@ -35,6 +46,8 @@ for n = 0:b % Loop para examinar todos los números en el intervalo con el
 
         if mod(n,i) == 0 % Si el residuo de alguna división  en el intervalo es 
             %cero, entonces el número dado tiene un divisor
+
+            fprintf("El número no es primo"); % Imprimir la leyenda
 
             esprimo = false; % El output es seteado a falso
 
@@ -52,16 +65,12 @@ for n = 0:b % Loop para examinar todos los números en el intervalo con el
     if analizados == div - 1 % Si no hubo ningún número que pudiera dividirlo
         % en un número entero, es primo
 
+        fprintf("El número es primo"); % Imprime la leyenda
+
         esprimo = true; % Setea el output a verdadero
 
     end %termina IF
-    
-    if esprimo == true % Si el número resultó primo, se suma al contador
-    
-    sumaPrima = sumaPrima + n; % Se realiza la suma
-    
-    end % Se cierra el IF
-    
-end % Se cierra el FOR
+
+    end % Termina función
 
 end % Se cierra la función
