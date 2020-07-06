@@ -1,2 +1,2 @@
 # Metodos-numericos-en-ingenieria
-Ejercicios de práctica de MatLab
+En este espacio se van a subir todos los ejercicios de la clase
