@@ -17,7 +17,7 @@ The repository is organized into several directories, each containing MATLAB scr
 5. `LeastSquaresMethods`: Scripts demonstrating least squares methods, including linear, polynomial, exponential, and power regressions.
 6. `InterpolationMethods`: Scripts for linear interpolation, Newton's polynomial interpolation, and Lagrange polynomial interpolation.
 7. `PracticeExercises`: Additional exercises to further understand and practice the implementation of these numerical methods.
-8. `MechanicalPropertyAnalysis`: A project using the numerical methods to analyze the mechanical properties of materials based on tension test data.
+8. `Proyecto`: A project using the numerical methods to analyze the mechanical properties of materials based on tension test data.
 
 ## :computer: Getting Started
 
