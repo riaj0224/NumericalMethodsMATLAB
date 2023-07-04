@@ -9,15 +9,15 @@ Numerical methods play an essential role in engineering and science. This reposi
 ## :file_folder: Repository Contents
 
 The repository is organized into several directories, each containing MATLAB scripts related to a specific topic:
-
-1. `ClosedRootMethods`: Scripts for closed methods of root finding, such as bisection and fixed point.
-2. `OpenRootMethods`: Scripts for open methods of root finding, such as the secant method and Newton-Raphson.
-3. `MatrixOperations`: Scripts demonstrating matrix operations performed manually, without utilizing MATLAB's in-built functions.
-4. `GaussMethod`: A script illustrating Gauss' method for solving systems of linear equations.
-5. `LeastSquaresMethods`: Scripts demonstrating least squares methods, including linear, polynomial, exponential, and power regressions.
-6. `InterpolationMethods`: Scripts for linear interpolation, Newton's polynomial interpolation, and Lagrange polynomial interpolation.
-7. `PracticeExercises`: Additional exercises to further understand and practice the implementation of these numerical methods.
-8. `Proyecto`: A project using the numerical methods to analyze the mechanical properties of materials based on tension test data.
+1. `Métodos`
+  1. `ClosedRootMethods`: Scripts for closed methods of root finding, such as bisection and fixed point.
+  2. `OpenRootMethods`: Scripts for open methods of root finding, such as the secant method and Newton-Raphson.
+  3. `MatrixOperations`: Scripts demonstrating matrix operations performed manually, without utilizing MATLAB's in-built functions.
+  4. `GaussMethod`: A script illustrating Gauss' method for solving systems of linear equations.
+  5. `LeastSquaresMethods`: Scripts demonstrating least squares methods, including linear, polynomial, exponential, and power regressions.
+  6. `InterpolationMethods`: Scripts for linear interpolation, Newton's polynomial interpolation, and Lagrange polynomial interpolation.
+2. `PracticeExercises`: Additional exercises to further understand and practice the implementation of these numerical methods.
+3. `Proyecto`: A project using the numerical methods to analyze the mechanical properties of materials based on tension test data.
 
 ## :computer: Getting Started
 
